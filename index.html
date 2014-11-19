@@ -76,7 +76,7 @@ p {
     position: relative;
     /* Chrome, Safari, Opera */
     -webkit-animation-name: myfirst;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 2s;
     -webkit-animation-iteration-count: infinite;
@@ -86,7 +86,7 @@ p {
     transition: width 2s;
     /* Standard syntax */
     animation-name: myfirst;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-delay: 2s;
     animation-iteration-count: infinite;
@@ -97,18 +97,18 @@ p {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
     0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
+    25%  {background:yellow; left:500px; top:0px;}
+    50%  {background:blue; left:500px; top:500px;}
+    75%  {background:green; left:0px; top:500px;}
     100% {background:red; left:0px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
     0%   {background:red; left:0px; top:0px;}
-    25%  {background:yellow; left:200px; top:0px;}
-    50%  {background:blue; left:200px; top:200px;}
-    75%  {background:green; left:0px; top:200px;}
+    25%  {background:yellow; left:500px; top:0px;}
+    50%  {background:blue; left:500px; top:500px;}
+    75%  {background:green; left:0px; top:500px;}
     100% {background:red; left:0px; top:0px;}
 }
 p:hover {
