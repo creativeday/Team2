@@ -1,5 +1,10 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
+.navlink {
+    width: 16.666%;
+    float: left;
+}
+
 html,
 button,
 input,
@@ -391,4 +396,6 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+    
 }
+
